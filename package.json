@@ -1,6 +1,24 @@
 {
   "name": "nextjs-typescript-template",
-  "private": true,
+  "private": false,
+  "version": "v1.0.0",
+  "description": "A Next.js project template with Typescript and some helpful tools.",
+  "main": "src/pages/index.tsx",
+  "keywords": [
+    "react",
+    "next.js",
+    "typescript",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ledoctah/nextjs-typescript-template.git"
+  },
+  "author": {
+    "name": "Matheus Ferreira",
+    "email": "matheus@matheusferreira.dev"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
