@@ -1,0 +1,54 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  margin: auto;
+
+  text-align: center;
+
+  padding: 0 1rem;
+}
+
+.welcome {
+  font-weight: bold;
+
+  font-size: 1.825rem;
+}
+
+.welcome a {
+  color: blue;
+}
+
+.code {
+  padding: 0.425rem 0.525rem;
+
+  background-color: #EAEAEA;
+
+  border-radius: 5px;
+
+  font-weight: bold;
+
+  line-height: 2rem;
+}
+
+.image {
+  width: 6rem;
+  height: 6rem;
+
+  animation: rotate 10s infinite linear;
+}
+
+.footer {
+  margin-top: 2rem;
+}
+
+.footer a {
+  color: blue;
+}
